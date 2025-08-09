@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 ruby '3.2.4'
 gem 'rails', '4.2.11'
+gem 'globalid', '~> 0.6.0'
 gem 'ffi', '1.14.2'
 
 gem 'sass-rails', '~> 5.0.3'
