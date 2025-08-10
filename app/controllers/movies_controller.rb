@@ -1,5 +1,3 @@
-# app/controllers/movies_controller.rb (UPDATED)
-
 class MoviesController < ApplicationController
   before_action :force_index_redirect, only: [:index]
 
@@ -18,7 +16,6 @@ class MoviesController < ApplicationController
   end
 
   def new
-    # default: render 'new' template
   end
 
   def create
